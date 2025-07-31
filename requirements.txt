@@ -1,7 +1,6 @@
-python 
-   - pip install streamlit
-   - pip installtensorflow
-   - pip install scikit-learn
-   - pip install pandas
-   - pip install numpy
-   - pip install matplotlib
+streamlit
+tensorflow
+scikit-learn
+pandas
+numpy
+matplotlib
