@@ -3,22 +3,7 @@
 This project predicts future stock prices using an LSTM (Long Short-Term Memory) neural network built with TensorFlow/Keras. A Streamlit web app is included to visualize the 7-day forecast for any uploaded stock CSV file.
 
 ---
-
-## 📁 Project Structure
-stock-market-ai-analysis/
-├── data/ # Raw CSV stock data (e.g., MSFT_data.csv)
-├── models/ # Saved LSTM models (e.g., lstm_msft_model.h5)
-├── notebooks/ # Jupyter Notebooks for training and EDA
-│ ├── 01_EDA_Kaggle.ipynb
-│ └── 02_LSTM_Model.ipynb
-├── scripts/ # Python scripts (model, preprocessing, etc.)
-├── streamlit_app/
-│ └── app.py # Streamlit web app
-└── README.md # Project documentation
-
-
----
-
+# 🚀 Project Journey
 ## ✅ Phase 1: Model Training
 
 ### 1. Data Loading
