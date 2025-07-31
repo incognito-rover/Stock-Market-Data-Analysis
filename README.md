@@ -75,6 +75,22 @@ Upload this CSV in the app to forecast the next 7 days.
 - Use pre-trained model to forecast 7 future business days
 - Interactive plot (Actual vs Forecast)
 
+---
+
+## 📄 Requirements for CSV File
+
+To ensure compatibility with the model and web app, your uploaded CSV file must follow this format:
+
+- ✅ Must contain a `Date` column  
+  (e.g., `31-Jul-25`, accepted in most standard date formats)
+
+- ✅ Must contain a `Close` price column  
+  (i.e., the closing stock price for each day)
+
+> 💡 The CSV should have at least **60 rows** of historical data to generate a valid forecast.
+
+---
+
 ### Run the App
 ```bash
 cd streamlit_app
@@ -92,6 +108,8 @@ pandas, numpy, matplotlib, scikit-learn
 
 Install all with:
 pip install -r requirements.txt
+
+
 
 
 
